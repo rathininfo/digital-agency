@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Start header section */
+
 .menu_container{
     background-color: rgb(40, 40, 40);
     padding: 50px;
@@ -34,3 +36,50 @@
 .item:hover{
     color: aqua;
 }
+
+/* End header section */
+
+/* Start main section */
+
+.banner-img{
+    width: 350px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url('images/background.png');
+    background: linear-gradient(45deg,#161616, #444444);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.title{
+
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.descripton{
+
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+.btn{
+
+    margin-top: 15px;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* End main section */
