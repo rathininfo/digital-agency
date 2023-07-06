@@ -83,3 +83,42 @@
 }
 
 /* End main section */
+
+/* start main section 2nd banner */
+
+.heading-about{
+ text-align: center;
+ font-size: 3rem;
+ font-weight: 600;
+ margin-top: 50px;
+}
+
+.about-container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-image{
+
+    width: 350px;
+
+}
+
+.content-head{
+    font-size: 2rem;
+}
+
+.about-description{
+
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
