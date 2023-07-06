@@ -4,3 +4,33 @@
     box-sizing: border-box;
 }
 
+.menu_container{
+    background-color: rgb(40, 40, 40);
+    padding: 50px;
+    color: white;
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_photo{
+ width: 130px;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+
+}
+
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size:18px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: aqua;
+}
