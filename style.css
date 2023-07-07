@@ -98,6 +98,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 
 }
 
@@ -125,7 +126,69 @@
 
 /* End main section 2nd banner */
 
+/* Start Service Section*/
 
+.services-maincontainer{
+    background: linear-gradient(45deg,#161616, #444444);
+    color: #ffffff;
+    padding-top: 40px;
+
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 60px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+.our-services{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.services-box{
+    background-color: #f20404;
+    padding: 80px 30PX;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+}
+
+.box1{
+    background-color:  #444444;
+}
+
+.box2{
+    background-color:  #444444;
+}
+
+.box3{
+    background-color:  #444444;
+}
+
+.icon{width: 100px;}
+
+.service-name{
+    
+margin-top: 15px;
+
+}
+.service-description{
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* End Service Section*/
 
 
 
